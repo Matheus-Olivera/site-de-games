@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: auto;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 16px 0;
+    background-color: darkslategray;
+    color: aliceblue;
+    } 
+
+header,
+section h2,
+section h3,
+form button{
+        font-family: "Bungee", cursive;
+        font-weight: 400;
+        font-style: normal;   
+        font-weight: normal;   
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body,
+input,
+textarea {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.loja{
+    margin-right: 32px;
+}
+
+.marcas img{
+    height: 24px;
+
+}
+
+.marcas li{
+    display: inline;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+    color: darkslategray;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.social img{
+    height: 24px;
+}
+.social li{
+    display:inline;
+    margin right: 8px;
+}
+.social li a{
+    text-decoration: none;
+}
+
+#contato .container{
+    display: block;
+}
+.metodos-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 160px;
+}
+
+section h3 {
+    margin bottom: 16px;
+}
+
+form button{
+    background-color:darkslategray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(71, 139, 139);
+}
+
+input:focus, textarea:focus {
+    outline-color: darkslategray;
+}
+
+footer{
+    background-color: darkslategray;
+    color: aliceblue;
+    padding: 16px 0;
+}
